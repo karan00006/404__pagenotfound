@@ -1,13 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="orb one"></div>
+    <div class="orb two"></div>
+
+    <main class="panel" role="main" aria-labelledby="error-title">
+        <section class="grid">
+            <div class="left">
+                <div class="tag">Error 404</div>
+                <h1 id="error-title">Page Not Found.</h1>
+                <p>The page you are looking for could not be found.</p>
+                <div class="actions">
+                    <a class="btn primary" href="https://www.instagram.com/4o4__pagenotfound">Go Home</a>
+                    <a class="btn secondary" href="javascript:history.back()">Go Back</a>
+                </div>
+            </div>
+
+            <div class="right" aria-hidden="true">
+                <div>
+                    <div class="code">404</div>
+                    <p class="caption">Page Not Found</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
